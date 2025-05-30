@@ -15,9 +15,9 @@ const getBasePath = () => {
 };
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Running Page HHH',
+  siteTitle: 'Running swtang',
   siteUrl: 'https://shaowutang.com/',
-  logo: 'https://github.com/swtang9/swtang9.github.io/blob/master/images/android-chrome-192x192.png',
+  logo: 'android-chrome-225x225.png',
   description: 'Personal site and blog',
   navLinks: [
     {
