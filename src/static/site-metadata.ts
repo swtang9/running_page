@@ -17,7 +17,7 @@ const getBasePath = () => {
 const data: ISiteMetadataResult = {
   siteTitle: 'Running swtang',
   siteUrl: 'https://running-page-brown.vercel.app',
-  logo: 'https://s21.ax1x.com/2025/05/30/pV9VKjf.jpg',
+  logo: 'https://s21.ax1x.com/2025/05/30/pV9V4bD.jpg',
   description: 'Personal site and blog',
   navLinks: [
     {
