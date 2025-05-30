@@ -29,7 +29,7 @@ const data: ISiteMetadataResult = {
     //   // url: 'https://shaowutang.com/',
     // },
     {
-      name: 'Shaowu Tang',
+      name: 'About Me',
       url: 'https://shaowutang.com/',
     },
   ],
