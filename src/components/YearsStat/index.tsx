@@ -14,7 +14,7 @@ const YearsStat = ({ year, onClick }: { year: string, onClick: (_year: string) =
   return (
     <div className="w-full lg:w-full pb-16 pr-16 lg:pr-16">
       <section className="pb-0">
-      <p style={quoteStyle}>&ndash; &ndash; Keep Going & Fight on!</p>
+      <p style={quoteStyle}>&ndash; &ndash; Keep going & Fight on!</p>
       <br />
       <br />
       <br />
