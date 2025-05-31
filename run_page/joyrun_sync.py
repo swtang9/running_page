@@ -501,7 +501,7 @@ def _generate_svg_profile(athlete, min_grid_distance):
             "--athlete",
             athlete,
             "--special-distance",
-            "20",
+            "10",
             "--special-distance2",
             "40",
             "--special-color",

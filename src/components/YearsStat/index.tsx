@@ -14,12 +14,16 @@ const YearsStat = ({ year, onClick }: { year: string, onClick: (_year: string) =
   return (
     <div className="w-full lg:w-full pb-16 pr-16 lg:pr-16">
       <section className="pb-0">
+      <p style={quoteStyle}>&ndash; &ndash; Keep Going & Fight on!</p>
+      <br />
+      <br />
+      <br />
         <p className="leading-relaxed">
           {INFO_MESSAGE(years.length, year)}
           <br />
         </p>
       </section>
-      <hr color="red" />
+      <hr color="white" />
       {yearsArrayUpdate.map((year) => (
         <YearStat key={year} year={year} onClick={onClick} />
       ))}
@@ -32,5 +36,15 @@ const YearsStat = ({ year, onClick }: { year: string, onClick: (_year: string) =
     </div>
   );
 };
+
+const quoteStyle = {
+    fontWeight: "bold",
+    textAlign: "left",
+    fontFamily: "Arial, sans-serif",
+    fontStyle: "italic",        
+    fontSize: "22px",
+    color: "white"
+};
+
 
 export default YearsStat;
